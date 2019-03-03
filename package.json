@@ -1,0 +1,30 @@
+{
+  "name": "hotel-search-app",
+  "version": "1.0.0",
+  "description": "This repo contains a hotel search application made with MEAN Stack technologies.",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "^1.7.7",
+    "angular-jwt": "^0.1.10",
+    "angular-route": "^1.7.7",
+    "bcrypt": "^3.0.4",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.0",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.16"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikwalker/hotel-search-app.git"
+  },
+  "author": "Erik Walker",
+  "license": "LIC"
+}
